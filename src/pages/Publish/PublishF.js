@@ -156,6 +156,7 @@ export default function PublishF() {
                                     </div>
                                     <div className='card container'>
                                         <IoShareSocialOutline size='24' color="#ACACAC" />
+                                        <p className='card container text'>15</p>
                                     </div>
                                     <div className='card container'>
                                         <IoEyeOutline size='24' color="#ACACAC" />
