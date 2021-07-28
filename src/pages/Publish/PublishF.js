@@ -119,8 +119,11 @@ export default function PublishF() {
                                 }
                             </div>
                         </div>
-                        <p className='card description'>{props.description}</p>
-
+                        {
+                            props.description.includes('?')
+                            ?<p className='card description'> {getLink(props.description)[0]} <a href={getLink(props.description)[1]}>{getLink(props.description)[1]}</a> </p>
+                            :<p className='card description'> {props.description}</p>
+                        }
                         <img src={image} alt="" className='card image' onError={() => setImage(noPost)} />
                         {
                             props.channel === "twitter"
@@ -204,4 +207,10 @@ function getButtons(status) {
     buttons.push(<VscTrash size={size} color={c} />);
     buttons.push(<CgMoreO size={size} color={c} />);
     return buttons;
+}
+
+function getLink(exp){
+    var x=exp.split("http:");
+    x[1]= "http:"+x[1];
+    return x;
 }
