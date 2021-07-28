@@ -2,6 +2,7 @@
 
 ***I uploaded only source files. You need to have react to compile the sources.***
 
+Here is the screenshots of the project:
 
 ![image](https://user-images.githubusercontent.com/74937539/127357796-fa529c48-8220-4905-b1fb-f51100907f1d.png)
 
