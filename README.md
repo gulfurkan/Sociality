@@ -4,9 +4,10 @@
 
 Here is the screenshots of the project:
 
-![image](https://user-images.githubusercontent.com/74937539/127357796-fa529c48-8220-4905-b1fb-f51100907f1d.png)
+![image](https://user-images.githubusercontent.com/74937539/127373070-526d9353-2bf9-465e-893f-8731a099514c.png)
 
-![image](https://user-images.githubusercontent.com/74937539/127357760-da919a95-ba99-43a3-be0f-48dafab40e45.png)
+![image](https://user-images.githubusercontent.com/74937539/127373101-35c9831f-2c63-4db1-9a86-788763c45efa.png)
+
 
 
 
